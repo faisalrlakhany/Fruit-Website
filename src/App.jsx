@@ -1,23 +1,27 @@
-import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
-import Menu from './components/Menu/Menu'
-import Banner1 from './components/Banners/Banner1'
-import Banner2 from './components/Banners/Banner2'
-import Banner3 from './components/Banners/Banner3'
+import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import FeaturedProducts from "./components/Product/Product";
+import AboutUs from "./components/About/About";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Newsletter from "./components/Newsletter/Newsletter";
+import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
+
 
 const App = () => {
   return (
-    <main className='overflow-x-hidden'>
-      <Navbar/>
+    <main className="overflow-x-hidden">
+      <Navbar />
       <Hero />
-      <Menu />
-      <Banner1 />
-      <Banner2/>
-      <Banner3 />
-
+      <AboutUs />
+      <FeaturedProducts />
+      <Testimonials />
+      <Newsletter />
+      <Contact />
+      <Footer />
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;

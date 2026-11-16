@@ -17,7 +17,7 @@
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge)
 
 ```bash
-Frontend: React 18 + Vite
+Frontend: React 19 + Vite
 Styling: Tailwind CSS
 Animations: Framer Motion
 Icons: React Icons
